@@ -1,0 +1,8 @@
+/* .carousel {
+  width: 375px;
+  height: 245px;
+} */
+
+.carousel .thumbs-wrapper {
+  display: none;
+}
