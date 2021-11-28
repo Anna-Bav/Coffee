@@ -6,6 +6,8 @@ import {
     Switch,
     Route
 } from "react-router-dom";
+import images_carousel from './landing/carousel/Images_carusel';
+import Carousel from './landing/carousel/Carousel';
 
 
 
@@ -14,6 +16,7 @@ export default function Layout() {
        <BrowserRouter>
        <Switch>
            <Route exact path='/' render={()=><Landing />}/>
+           <Carousel images_carousel={images_carousel} />
        </Switch>
        </BrowserRouter>
    

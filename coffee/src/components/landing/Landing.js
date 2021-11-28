@@ -1,13 +1,13 @@
 import React from 'react';
 import './Landing.css'
 import Header from './header/Header';
-import Carusel from './carusel/Carusel'
+import Carousel from './carousel/Carousel'
 
 export default function Landing() {
     return(
      <div className='landing'>
         <Header /> 
-        <Carusel />
+        <Carousel />
      </div>
      )
  }
