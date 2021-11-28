@@ -1,7 +1,7 @@
-.header_wrap,
+/* .header_wrap,
 .header_inner {
   border: 1px solid blue;
-}
+} */
 .header_wrap {
   width: 100%;
   max-width: 375px;

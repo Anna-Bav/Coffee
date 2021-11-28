@@ -1,0 +1,57 @@
+.order {
+  /* border: 1px solid blue; */
+  width: 100%;
+  max-width: 375px;
+  height: 505px;
+}
+.order_btn {
+  height: 61px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.order_btn button {
+  width: 287px;
+  height: 45px;
+  background: #00fbf4;
+  border-radius: 25px;
+  color: #263238;
+  font-size: 14px;
+  font-family: "SF UI Display";
+  font-weight: 800;
+  font-style: normal;
+  line-height: 22px;
+}
+.order_descr {
+  height: 444px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+.point {
+  display: flex;
+  /* margin-left: 50px; */
+}
+.point img {
+  margin-right: 18px;
+}
+.text_1 {
+  width: 248px;
+  color: #e1e1e1;
+  font-size: 16px;
+  font-family: "SF UI Display";
+  font-weight: 400;
+  font-style: normal;
+  line-height: 16px;
+}
+.text_2 {
+  width: 248px;
+  color: #e1e1e1;
+  font-size: 14px;
+  font-family: "SF UI Display";
+  font-weight: 300;
+  font-style: normal;
+  line-height: 16px;
+}
