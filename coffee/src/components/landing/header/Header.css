@@ -1,0 +1,23 @@
+.header_wrap,
+.header_inner {
+  border: 1px solid blue;
+}
+.header_wrap {
+  width: 100%;
+  max-width: 375px;
+  height: 75px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #202021;
+  /* position: fixed; */
+  z-index: 1000;
+  top: 0;
+}
+.header_inner {
+  width: 88%;
+  height: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
