@@ -1,0 +1,40 @@
+.carousel3 {
+  /* border: 1px solid blue; */
+  height: 540px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.reviews {
+  width: 287px;
+  height: 60px;
+  margin-bottom: 31px;
+  text-align: center;
+  color: #fefefe;
+  font-size: 22px;
+  font-family: "SF UI Display";
+  font-weight: 700;
+  font-style: normal;
+  line-height: 30px;
+  text-transform: uppercase;
+}
+.btn_rev1,
+.btn_rev2 {
+  width: 287px;
+  height: 45px;
+  margin-top: 33px;
+  border-radius: 25px;
+  font-size: 14px;
+  font-family: "SF UI Display";
+  font-weight: 700;
+  font-style: normal;
+  line-height: 22px;
+}
+.btn_rev1 {
+  color: #fefefe;
+  background: #37373b;
+}
+.btn_rev2 {
+  color: #263238;
+  background: #00fbf4;
+}

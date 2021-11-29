@@ -1,0 +1,14 @@
+.welcome {
+  /* border: 1px solid blue; */
+  height: 321px;
+}
+.wel1 {
+  position: absolute;
+}
+.wel2 {
+  position: relative;
+  top: 222px;
+  left: 110px;
+  border-top-left-radius: 25px;
+  border-bottom-left-radius: 25px;
+}

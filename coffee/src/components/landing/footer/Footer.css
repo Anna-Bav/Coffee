@@ -1,0 +1,33 @@
+.footer {
+  height: 234px;
+}
+.f1,
+.f2,
+.f3 {
+  margin-left: 15px;
+}
+.f1 {
+  margin-top: 24px;
+  margin-bottom: 11px;
+}
+.f2 {
+  color: #ffffff;
+  font-size: 12px;
+  font-family: "SF UI Display";
+  font-weight: 300;
+  font-style: normal;
+  line-height: 18px;
+  margin-bottom: 11px;
+}
+.f3 {
+  color: #ffffff;
+  font-size: 14px;
+  font-family: "SF UI Display";
+  font-weight: 600;
+  font-style: normal;
+  line-height: 28px;
+  cursor: pointer;
+}
+.rights {
+  text-align: center;
+}

@@ -1,0 +1,32 @@
+.buttons {
+  /* border: 1px solid blue; */
+  height: 189px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+.btn1 {
+  width: 287px;
+  height: 45px;
+  border-radius: 25px;
+  color: #ffffff;
+  background: #37373b;
+  font-size: 14px;
+  font-family: "SF UI Display";
+  font-weight: 700;
+  font-style: normal;
+  line-height: 22px;
+}
+.btn2 {
+  width: 287px;
+  height: 45px;
+  border-radius: 25px;
+  color: #263238;
+  background: #00fbf4;
+  font-size: 14px;
+  font-family: "SF UI Display";
+  font-weight: 800;
+  font-style: normal;
+  line-height: 22px;
+}

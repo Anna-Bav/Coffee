@@ -1,0 +1,21 @@
+.users {
+  /* border: 1px solid blue; */
+  height: 276px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.users button {
+  width: 287px;
+  height: 45px;
+  margin-top: 35px;
+  margin-bottom: 21px;
+  border-radius: 25px;
+  color: #2b3238;
+  background: #fefefe;
+  font-size: 14px;
+  font-family: "SF UI Display";
+  font-weight: 700;
+  font-style: normal;
+  line-height: 22px;
+}
