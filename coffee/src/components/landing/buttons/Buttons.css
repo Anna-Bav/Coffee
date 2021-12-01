@@ -10,6 +10,7 @@
   width: 287px;
   height: 45px;
   border-radius: 25px;
+  border: none;
   color: #ffffff;
   background: #37373b;
   font-size: 14px;
@@ -17,11 +18,13 @@
   font-weight: 700;
   font-style: normal;
   line-height: 22px;
+  cursor: pointer;
 }
 .btn2 {
   width: 287px;
   height: 45px;
   border-radius: 25px;
+  border: none;
   color: #263238;
   background: #00fbf4;
   font-size: 14px;
@@ -29,4 +32,5 @@
   font-weight: 800;
   font-style: normal;
   line-height: 22px;
+  cursor: pointer;
 }

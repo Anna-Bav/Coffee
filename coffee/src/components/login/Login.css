@@ -1,0 +1,43 @@
+.login {
+  /* border: 1px solid blue; */
+  width: 375px;
+  height: 812px;
+  background: #202021;
+}
+.login_header {
+  /* border: 1px solid blue; */
+  height: 65px;
+  /* padding-top: 45px; */
+  padding-left: 16px;
+  /* display: flex;
+  justify-content: space-between; */
+}
+.login_header img {
+  cursor: pointer;
+  margin-top: 44px;
+}
+.close {
+  margin-left: 295px;
+}
+.login_logo {
+  height: 106px;
+  display: flex;
+  justify-content: center;
+  align-items: start;
+}
+.login_reg {
+  height: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  color: #fefefe;
+  font-size: 18px;
+  font-family: "SF UI Display";
+  font-weight: 500;
+  font-style: normal;
+  line-height: 22px;
+  text-transform: uppercase;
+}
+.hover:hover {
+  border-bottom: 3px solid #00fbf4;
+}

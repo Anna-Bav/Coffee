@@ -6,6 +6,7 @@ import {
     Switch,
     Route
 } from "react-router-dom";
+import Login from './login/Login';
 
 
 
@@ -14,6 +15,10 @@ export default function Layout() {
        <BrowserRouter>
        <Switch>
            <Route exact path='/' render={()=><Landing />}/>
+           <Route path="/login" render={() => <Login/>}/>
+           {/* <Route path="/login" component={Login} /> */}
+           <Route path="/landing" render={() => <Landing />} />
+           
         </Switch>
        </BrowserRouter>
    

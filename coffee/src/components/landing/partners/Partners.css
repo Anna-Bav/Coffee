@@ -18,13 +18,14 @@
   width: 100%;
   display: flex;
   align-items: center;
-  justify-content: center;
+  /* justify-content: center; */
   margin-top: 15px;
+  margin-left: 55px;
 }
 .counterStyle1 {
   position: absolute;
-  margin-top: -182px;
-  margin-left: -58.44%;
+  margin-top: -45%;
+  margin-left: 5%;
   color: #ffffff;
 }
 .partners_text {
@@ -34,11 +35,12 @@
   font-weight: 700;
   font-style: normal;
   text-transform: uppercase;
+  margin-left: 25px;
 }
 .counterStyle2 {
   position: absolute;
-  margin-top: -174px;
-  margin-left: -50.44%;
+  margin-top: -45%;
+  margin-left: 5%;
   color: #ffffff;
 }
 .partners_example {
@@ -57,12 +59,12 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  cursor: pointer;
 }
 .become_partner button {
   width: 287px;
   height: 45px;
   border-radius: 25px;
+  border: none;
   background: #37373b;
   color: #fefefe;
   font-size: 14px;
@@ -70,4 +72,5 @@
   font-weight: 700;
   font-style: normal;
   line-height: 22px;
+  cursor: pointer;
 }

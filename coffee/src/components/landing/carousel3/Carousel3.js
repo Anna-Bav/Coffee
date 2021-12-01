@@ -18,8 +18,9 @@ export default function MyCarousel3() {
             Отзывы о нас и наших партнерах
             </div>
        <Carousel>
-            <div>
-                <img src={slide1} alt='Slide 1'/>
+            <div className='slide1'>
+                
+                {/* <img src={slide1} alt='Slide 1'/> */}
             </div>
             <div>
                 <img src={slide2} alt='Slide 2'/>

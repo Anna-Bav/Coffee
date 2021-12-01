@@ -11,6 +11,7 @@
   margin-top: 35px;
   margin-bottom: 21px;
   border-radius: 25px;
+  border: none;
   color: #2b3238;
   background: #fefefe;
   font-size: 14px;
@@ -18,4 +19,5 @@
   font-weight: 700;
   font-style: normal;
   line-height: 22px;
+  cursor: pointer;
 }

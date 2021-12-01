@@ -21,3 +21,9 @@
   align-items: center;
   justify-content: space-between;
 }
+.logo {
+  position: absolute;
+  top: 30px;
+  left: 155px;
+  z-index: 1000;
+}

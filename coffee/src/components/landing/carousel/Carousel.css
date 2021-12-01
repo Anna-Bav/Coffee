@@ -6,3 +6,12 @@
 .carousel .thumbs-wrapper {
   display: none;
 }
+/* .control-dots {
+  color: #00fbf4;
+}
+.dot:hover {
+  color: #00fbf4;
+} */
+.selected {
+  background: #00fbf4 !important;
+}

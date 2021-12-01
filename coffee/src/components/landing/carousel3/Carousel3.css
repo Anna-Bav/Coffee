@@ -8,7 +8,7 @@
 .reviews {
   width: 287px;
   height: 60px;
-  margin-bottom: 31px;
+  /* margin-bottom: 31px; */
   text-align: center;
   color: #fefefe;
   font-size: 22px;
@@ -24,11 +24,13 @@
   height: 45px;
   margin-top: 33px;
   border-radius: 25px;
+  border: none;
   font-size: 14px;
   font-family: "SF UI Display";
   font-weight: 700;
   font-style: normal;
   line-height: 22px;
+  cursor: pointer;
 }
 .btn_rev1 {
   color: #fefefe;
@@ -37,4 +39,16 @@
 .btn_rev2 {
   color: #263238;
   background: #00fbf4;
+}
+/* .slide {
+  height: 295px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} */
+.slide1 {
+  width: 331px;
+  height: 234px;
+  background: #37373b;
+  border-radius: 25px;
 }
