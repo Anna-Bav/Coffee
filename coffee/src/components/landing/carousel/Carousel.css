@@ -12,6 +12,6 @@
 .dot:hover {
   color: #00fbf4;
 } */
-.selected {
-  background: #00fbf4 !important;
+li.selected {
+  color: #00fbf4 !important;
 }
