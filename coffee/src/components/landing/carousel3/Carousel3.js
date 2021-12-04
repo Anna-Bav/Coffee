@@ -17,9 +17,14 @@ export default function MyCarousel3() {
             <div className='reviews'>
             Отзывы о нас и наших партнерах
             </div>
-       <Carousel>
+            
+       <Carousel
+        centerMode={true}
+        centerSlidePercentage={100}
+        
+        >
 
-            <div className='slide_wrap'>
+            {/* <div className='slide_wrap'> */}
                <div className='slide1'>
                    <div className='slide1_nav'>
                        <div className='nav1'>
@@ -43,9 +48,9 @@ export default function MyCarousel3() {
                    <div className='slide1_date'>7 октября 2021г.</div>
                 </div> 
                 {/* <img src={slide1} alt='Slide 1'/> */}
-            </div>
+            {/* </div> */}
 
-            <div className='slide_wrap'>
+            {/* <div className='slide_wrap'> */}
                 <div className='slide2'>
                 <div className='slide1_nav'>
                        <div className='nav1'>
@@ -69,9 +74,9 @@ export default function MyCarousel3() {
                    <div className='slide1_date'>12 октября 2021г.</div>
                 </div> 
                 {/* <img src={slide2} alt='Slide 2'/> */}
-            </div>
+            {/* </div> */}
 
-            <div className='slide_wrap'>
+            {/* <div className='slide_wrap'> */}
                 <div className='slide3'>
                 <div className='slide1_nav'>
                        <div className='nav1'>
@@ -95,9 +100,9 @@ export default function MyCarousel3() {
                    <div className='slide1_date'>9 октября 2021г.</div>
                 </div> 
                 {/* <img src={slide3} alt='Slide 3'/> */}
-            </div>
+            {/* </div> */}
 
-            <div className='slide_wrap'>
+            {/* <div className='slide_wrap'> */}
                 <div className='slide4'>
                 <div className='slide1_nav'>
                        <div className='nav1'>
@@ -121,9 +126,9 @@ export default function MyCarousel3() {
                    <div className='slide1_date'>22 октября 2021г.</div>
                 </div> 
                 {/* <img src={slide4} alt='Slide 4'/> */}
-            </div>
+            {/* </div> */}
 
-            <div className='slide_wrap'>
+            {/* <div className='slide_wrap'> */}
                 <div className='slide5'>
                 <div className='slide1_nav'>
                        <div className='nav1'>
@@ -147,7 +152,7 @@ export default function MyCarousel3() {
                    <div className='slide1_date'>29 октября 2021г.</div>
                 </div> 
                 {/* <img src={slide5} alt='Slide 5'/> */}
-            </div>
+            {/* </div> */}
 
         </Carousel>
         <button className='btn_rev1'>Все отзывы</button>

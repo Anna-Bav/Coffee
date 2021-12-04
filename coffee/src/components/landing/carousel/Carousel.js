@@ -12,31 +12,32 @@ export default function MyCarousel() {
     
     return(
        <Carousel
-        // autoPlay
-        // infiniteLoop
-        // showArrows={false}
-        // infiniteLoop={true}
-        // stopOnHover={true}
-        // renderIndicator={(onClickHandler, isSelected, label) => {
-        // const defStyle = { marginLeft: 20, color: "white", cursor: "pointer" };
-        // const style = isSelected
-        //   ? { ...defStyle, color: "#00FBF4", border: '1px solid #00FBF4' }
-        //   : { ...defStyle };
-        // return (
-        //   <span
-        //     style={style}
-        //     onClick={onClickHandler}
-        //     onKeyDown={onClickHandler}
+        autoPlay
+        infiniteLoop
+        showArrows={true}
+        infiniteLoop={true}
+        stopOnHover={true}
+        
+        renderIndicator={(onClickHandler, isSelected, label) => {
+        const defStyle = { marginLeft: 20, color: "white", cursor: "pointer" };
+        const style = isSelected
+          ? { ...defStyle, color: "#00FBF4", border: '1px solid #00FBF4' }
+          : { ...defStyle };
+        return (
+          <span
+            style={style}
+            onClick={onClickHandler}
+            onKeyDown={onClickHandler}
             // value={index}
             // key={index}
-            // role="button"
-            // tabIndex={1}
-            // aria-label={`${label} ${index + 1}`}
-    //       >
-    //         {label}
-    //       </span>
-    //     );
-    //   }}
+            role="button"
+            tabIndex={1}
+            aria-label={`${label}`}
+          >
+            {label}
+          </span>
+        );
+      }}
     >
 
 

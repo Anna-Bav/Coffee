@@ -1,0 +1,77 @@
+.legal {
+  width: 375px;
+  height: 970px;
+  background: #202021;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.partner_logo {
+  margin-top: 31px;
+}
+.legal_text {
+  width: 343px;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  margin-top: 40px;
+}
+.fast_coffee {
+  color: rgba(254, 254, 254, 0.9);
+  font-size: 16px;
+  font-family: "SF UI Display";
+  font-weight: 400;
+  font-style: normal;
+  line-height: 18px;
+  letter-spacing: 2%;
+}
+.legal_info {
+  width: 286px;
+  height: 154px;
+  margin-top: 19px;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: space-between;
+  color: rgba(254, 254, 254, 0.9);
+  font-size: 14px;
+  font-family: "SF UI Display";
+  font-weight: 300;
+  font-style: normal;
+  line-height: 20px;
+}
+.legal_contact {
+  width: 343px;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+.coffee_address {
+  margin-top: 37px;
+  margin-bottom: 38px;
+  display: flex;
+  color: #00fbf4;
+  font-size: 14px;
+  font-family: "SF UI Display";
+  font-weight: 300;
+  font-style: normal;
+  line-height: 16.71px;
+}
+.coffee_address img {
+  margin-right: 6px;
+}
+.legal_a {
+  height: 90px;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: space-between;
+}
+.legal_a a {
+  color: #00fbf4;
+  font-size: 14px;
+  font-family: "SF UI Display";
+  font-weight: 300;
+  font-style: normal;
+  line-height: 20px;
+}

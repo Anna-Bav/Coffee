@@ -1,0 +1,48 @@
+.review {
+  width: 375px;
+  height: 1118px;
+  background: #202021;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.partner_logo {
+  margin-top: 24px;
+}
+.partner_text {
+  width: 268px;
+  height: 32px;
+  color: rgba(254, 254, 254, 0.8);
+  font-size: 14px;
+  /* font-family: "SF UI Text"; */
+  font-weight: 300;
+  font-style: normal;
+  line-height: 18.2px;
+  letter-spacing: -4%;
+  margin-top: 42px;
+}
+.review_date {
+  margin-top: 35px;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: start;
+}
+.date1 {
+  color: rgba(254, 254, 254, 0.7);
+  font-size: 11px;
+  font-family: "SF UI Display";
+  font-weight: 200;
+  font-style: normal;
+  line-height: 13.13px;
+  letter-spacing: 1%;
+}
+.date2 {
+  color: rgba(254, 254, 254, 0.9);
+  font-size: 16px;
+  font-family: "SF UI Display";
+  font-weight: 400;
+  font-style: normal;
+  line-height: 19.09px;
+  margin-top: 11px;
+}

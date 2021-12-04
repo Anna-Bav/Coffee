@@ -1,5 +1,7 @@
 .footer {
+  width: 320px;
   height: 234px;
+  border-top: 0.3px solid rgba(255, 255, 255, 0.5);
 }
 .f1,
 .f2,

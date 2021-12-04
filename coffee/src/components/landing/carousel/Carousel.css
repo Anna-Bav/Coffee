@@ -2,7 +2,7 @@
   width: 375px;
   height: 245px;
 } */
-
+@import "react-responsive-carousel/lib/styles/carousel.min.css";
 .carousel .thumbs-wrapper {
   display: none;
 }
