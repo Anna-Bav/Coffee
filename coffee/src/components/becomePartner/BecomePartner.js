@@ -4,12 +4,13 @@ import {Link} from 'react-router-dom';
 import Header from '../landing/header/Header';
 import Burger from '../landing/header/Burger';
 import Footer from '../landing/footer/Footer';
+import Input from '../Input';
 
 
 
 
 export default function BecomePartner() {
-    
+
     return(
         <div className='partner'>
             <Header />
@@ -36,11 +37,11 @@ export default function BecomePartner() {
            Для сотрудничества с нами заполните форму заявки:
            </div>
            
-           <input className='partner_input' type='text' placeholder='Наименование организации/ИП' />
-           <input className='partner_input' type='text' placeholder='УНП' />
-           <input className='partner_input' type='text' placeholder='Контактный номер телефона' />
-           <input className='partner_input' type='email' placeholder='E-mail' />
-           <input className='partner_input' type='text' placeholder='Количество кофеен' />
+           <Input placeholder={"наименование организации/ИП"}/>
+           <Input placeholder='УНП' />
+           <Input placeholder='Контактный номер телефона' />
+           <Input placeholder='E-mail' />
+           <Input type='text' placeholder='Количество кофеен' />
            <textarea placeholder="Введите текст"/>
 
            <div className='agree'>

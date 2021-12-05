@@ -15,3 +15,6 @@
 /* li.selected {
   color: #00fbf4 !important;
 } */
+.carousel .control-dots .dot.selected, .carousel .control-dots .dot:hover {
+  background-color: red;
+}
