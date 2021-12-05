@@ -1,10 +1,15 @@
 import React from 'react';
 import './Login.css';
 import {Link} from 'react-router-dom';
-
+import Input from '../Input';
  
 
-export default function Login() {
+export default function Login(props) {
+    // const {popup ,setPopup ,  setPopupReg,popupReg} = props
+    // function toggleReg(){
+    //     setPopupReg(!popupReg)
+    //     setPopup(!popup)
+    // }
     return(
         <div className='login'>
            <div className='login_header'>
@@ -16,10 +21,15 @@ export default function Login() {
            <div className='login_logo'>
            <img src='/images/logo.svg'/>
            </div>
+
            <div className='login_reg'>
-               <div className='hover'>Авторизация</div>
-               <div className='hover'>Регистрация</div>
+               <Link to='/login'><div className='hover'>Авторизация</div></Link>
+               <Link to='/registration'><div className='hover'>Регистрация</div></Link>
            </div>
+
+           <Input placeholder={'Логин'} />
+           <Input placeholder={'Пароль'} />
+
 
         </div>
     )

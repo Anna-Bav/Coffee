@@ -1,6 +1,7 @@
 import React from 'react';
 import './Legal.css';
 import {Link} from 'react-router-dom';
+import { HashLink } from 'react-router-hash-link';
 import Header from '../landing/header/Header';
 import Footer from '../landing/footer/Footer';
 
@@ -42,9 +43,9 @@ export default function Legal() {
 
         </div>  
            
-        <Link style={{ textDecoration: 'none' }} to='/landing'>
+        <HashLink style={{ textDecoration: 'none' }} to='/landing#top'>
            <button className='partner_btn2'>На главную</button>
-        </Link>
+        </HashLink>
 
         <Footer />
         </div>

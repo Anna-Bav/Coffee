@@ -1,8 +1,10 @@
 import React from 'react';
 import './Review.css';
 import {Link} from 'react-router-dom';
+import { HashLink } from 'react-router-hash-link';
 import Header from '../landing/header/Header';
 import Footer from '../landing/footer/Footer';
+import Input from '../Input';
 
 
 
@@ -21,8 +23,8 @@ export default function Review() {
            Пожалуйста, оставьте ваш отзыв и оцените качество услуг сервиса:
            </div>
            
-           <input className='partner_input' type='text' placeholder='Ваше имя' />
-           <input className='partner_input' type='text' placeholder='Оцените платформу' />
+           <Input placeholder={'Ваше имя'} />
+           <Input placeholder={'Оцените платформу'} />
            <textarea placeholder="Введите текст отзыва"/>
 
            <div className='review_date'>
@@ -31,9 +33,9 @@ export default function Review() {
            </div>
           
            <button className='partner_btn1'>Отправить</button>
-           <Link style={{ textDecoration: 'none' }} to='/landing'>
+           <HashLink style={{ textDecoration: 'none' }} to='/landing#top'>
            <button className='partner_btn2'>На главную</button>
-           </Link>
+           </HashLink>
 
         <Footer />
         </div>

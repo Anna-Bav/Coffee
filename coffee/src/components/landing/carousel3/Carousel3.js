@@ -15,7 +15,8 @@ export default function MyCarousel3() {
     return(
         <div className='carousel3'>
             <div className='reviews'>
-            Отзывы о нас и наших партнерах
+            <div>Отзывы о нас и </div>
+            <div>наших партнерах</div>
             </div>
             
        <Carousel
@@ -155,8 +156,10 @@ export default function MyCarousel3() {
             {/* </div> */}
 
         </Carousel>
-        <button className='btn_rev1'>Все отзывы</button>
-        <button className='btn_rev2'>Разместить заказ</button>
+        <div className='car3_btns'>
+            <button className='btn_rev1'>Все отзывы</button>
+            <button className='btn_rev2'>Разместить заказ</button>
+        </div>
         </div>
           
             

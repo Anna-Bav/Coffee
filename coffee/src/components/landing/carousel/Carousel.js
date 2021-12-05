@@ -17,22 +17,17 @@ export default function MyCarousel() {
         showArrows={true}
         infiniteLoop={true}
         stopOnHover={true}
-        
+       >
 
-
-    >
-
-
-
-            <div>
-                <img src={slide1} alt='Slide 1'/>
+          <div>
+              <img src={slide1} alt='Slide 1'/>
             </div>
             <div>
-                <img src={slide2} alt='Slide 2'/>
+              <img src={slide2} alt='Slide 2'/>
             </div>
             <div>
-                <img src={slide3} alt='Slide 3'/>
-            </div>
+              <img src={slide3} alt='Slide 3'/>
+          </div>
         </Carousel>
        
           

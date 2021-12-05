@@ -1,6 +1,7 @@
 import React from 'react';
 import './Footer.css';
 import {Link} from 'react-router-dom';
+import { HashLink } from 'react-router-hash-link';
 
 
 
@@ -13,23 +14,22 @@ export default function Footer() {
             <img src="/images/footer.svg"/>
             </div>
             <div className='f2'>ООО “ФастКофе”</div>
-            <Link style={{ textDecoration: 'none' }} to='/legal'>
+            <HashLink style={{ textDecoration: 'none' }} to='/legal#top'>
                 <div className='f3'>Юридическая информация</div>
-            </Link>
-            <Link style={{ textDecoration: 'none' }} to='/becomePartner'>
+            </HashLink>
+            <HashLink style={{ textDecoration: 'none' }} to='/becomePartner#top'>
                 <div className='f3'>Стать партнером</div>
-            </Link>
-            <Link style={{ textDecoration: 'none' }} to='/contactUs'>
+            </HashLink>
+            <HashLink style={{ textDecoration: 'none' }} to='/contactUs#top'>
                 <div className='f3'>Связаться с нами</div>
-            </Link>
-            <Link style={{ textDecoration: 'none' }} to='/review'>
+            </HashLink>
+            <HashLink style={{ textDecoration: 'none' }} to='/review#top'>
             <div className='f3'>Оставить отзыв</div>
-            </Link>
+            </HashLink>
             <div className='rights'>
             <img src="/images/allRights.svg"/>
             </div>
-           
-           
+                     
            
         </div>
           

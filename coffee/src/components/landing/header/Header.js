@@ -15,7 +15,7 @@ export default function Header() {
                 <img src='/images/logo.svg'/>
                 </div>
                 <div className='user'>
-                <Link to='/login'>
+                <Link to='/registration'>
                 <img src='/images/user.svg'/>
                 </Link>
                 </div>

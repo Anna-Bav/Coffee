@@ -1,0 +1,45 @@
+.login {
+  width: 375px;
+  height: 812px;
+  background: #202021;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.login_header {
+  height: 65px;
+  padding-left: 16px;
+}
+.login_header img {
+  cursor: pointer;
+  margin-top: 44px;
+}
+.close {
+  margin-left: 295px;
+}
+.login_logo {
+  height: 106px;
+  display: flex;
+  justify-content: center;
+  align-items: start;
+}
+.login_reg {
+  width: 285px;
+  height: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  font-size: 18px;
+  font-family: "SF UI Display";
+  font-weight: 500;
+  font-style: normal;
+  line-height: 22px;
+  text-transform: uppercase;
+}
+.hover {
+  text-decoration: none;
+  color: #fefefe;
+}
+.hover:hover {
+  border-bottom: 3px solid #00fbf4;
+}

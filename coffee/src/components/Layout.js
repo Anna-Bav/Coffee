@@ -7,6 +7,7 @@ import {
     Route
 } from "react-router-dom";
 import Login from './login/Login';
+import Registration from './registration/Registration';
 import BecomePartner from './becomePartner/BecomePartner';
 import ContactUs from './contactUs/ContactUs';
 import Review from './review/Review';
@@ -22,6 +23,7 @@ export default function Layout() {
            <Route exact path='/' render={()=><Landing />}/>
            <Route path="/login" render={() => <Login/>}/>
            {/* <Route path="/login" component={Login} /> */}
+           <Route path="/registration" render={() => <Registration/>}/>
            <Route path="/landing" render={() => <Landing />} />
            <Route path='/becomePartner' render={() => <BecomePartner />} />
            <Route path='/contactUs' render={() => <ContactUs />} />
