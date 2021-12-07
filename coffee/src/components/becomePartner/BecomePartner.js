@@ -1,4 +1,4 @@
-import React from 'react';
+import React,  { useState } from 'react';
 import './BecomePartner.css';
 import {Link} from 'react-router-dom';
 import { HashLink } from 'react-router-hash-link';
@@ -11,7 +11,18 @@ import Input from '../Input';
 
 
 export default function BecomePartner() {
+    const [org, setOrg] = useState()  
+    const [orgDirty, setOrgDirty] = useState(false);
+    const [orgError, setOrgError] = useState('Поле обязательно для заполнения');
 
+    
+    const blurHandler = (e) => {
+        switch (e.target.name) {
+          case 'org':
+              setOrgDirty(true)  
+           
+        }
+    }
     return(
         <div  className='partner'>
             <Header />
@@ -24,7 +35,10 @@ export default function BecomePartner() {
            Для сотрудничества с нами заполните форму заявки:
            </div>
            
-           <Input placeholder={"Наименование организации/ИП"}/>
+           
+            {(orgDirty && orgError) && <div  style={{color:'red', textAlign:'center'}}>{orgError}</div>}
+           <Input onBlur = {e => blurHandler(e)} name='org' type='text' placeholder={"Наименование организации/ИП"} />
+
            <Input placeholder={'УНП'} />
            <Input placeholder={'Контактный номер телефона'} />
            <Input placeholder={'E-mail'} />
