@@ -43,3 +43,38 @@
 .hover:hover {
   border-bottom: 3px solid #00fbf4;
 }
+.hover:active {
+  border-bottom: 3px solid #00fbf4;
+}
+.loyal {
+  width: 289px;
+  margin-top: 23px;
+  display: flex;
+  align-items: start;
+}
+.loyal1 {
+  margin-right: 4px;
+}
+.loyal2 {
+  color: #828282;
+  font-size: 10px;
+  font-family: "SF UI Display";
+  font-weight: 300;
+  font-style: normal;
+  line-height: 11.93px;
+}
+.reg_btn {
+  width: 288px;
+  height: 45px;
+  color: #fefefe;
+  background: #37373b;
+  border-radius: 25px;
+  border: none;
+  font-size: 14px;
+  font-family: "SF UI Display";
+  font-weight: 700;
+  font-style: normal;
+  line-height: 22px;
+  cursor: pointer;
+  margin-top: 22px;
+}
