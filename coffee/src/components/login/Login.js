@@ -2,6 +2,9 @@ import React, {useState, useEffect} from 'react';
 import './Login.css';
 import {Link} from 'react-router-dom';
 import Input from '../Input';
+import {useDispatch} from 'react-redux';
+import {login} from '../../actions/user';
+
  
 
 export default function Login(props) {
@@ -13,6 +16,7 @@ export default function Login(props) {
     const [emailMessage, setEmailMessage] = useState('Введите e-mail, указанный при регистрации')
     const [passwordError, setPasswordError] = useState('Пароль не может быть пустым')
     const [formValid, setFormValid] = useState(false)
+    const dispatch = useDispatch()
     // const {popup ,setPopup ,  setPopupReg,popupReg} = props
     // function toggleReg(){
     //     setPopupReg(!popupReg)
@@ -96,7 +100,7 @@ export default function Login(props) {
                 <div className='forget2'><img src='/images/square_mini.svg'/>Запомнить</div>
             </div>
 
-        <button disabled={!formValid} className='login_btn'>
+        <button disabled={!formValid} onClick={() => dispatch(login(email,password))}className='login_btn'>
             Войти
         </button>
         </div>
