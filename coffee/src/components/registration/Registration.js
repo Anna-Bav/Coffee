@@ -2,7 +2,9 @@ import React, {useState, useEffect} from 'react';
 import './Registration.css';
 import {Link} from 'react-router-dom';
 import Input from '../Input';
- 
+import {useDispatch} from 'react-redux';
+import {registration} from '../../actions/user';
+
 
 export default function Registration(props) {
     const [email, setEmail] = useState()  
@@ -13,7 +15,7 @@ export default function Registration(props) {
     // const [emailMessage, setEmailMessage] = useState('Введите e-mail, указанный при регистрации')
     const [passwordError, setPasswordError] = useState('Пароль не может быть пустым')
     const [formValid, setFormValid] = useState(false)
-
+    const dispatch = useDispatch()
 
     useEffect( () => {
         if (emailError || passwordError) {
@@ -98,9 +100,9 @@ export default function Registration(props) {
                 <div className='loyal2'>Автоматически подключаться к программам лояльности заведений </div>
             </div>
 
-            <button disabled={!formValid} className='reg_btn'>
+            <button disabled={!formValid} onClick={() => dispatch(registration(email,password))} className='reg_btn'>
             Зарегистрироваться
         </button>
         </div>
-    )
+    )                                                       
 }

@@ -100,7 +100,7 @@ export default function Login(props) {
                 <div className='forget2'><img src='/images/square_mini.svg'/>Запомнить</div>
             </div>
 
-        <button disabled={!formValid} onClick={() => dispatch(login(email,password))}className='login_btn'>
+        <button disabled={!formValid} onClick={() => dispatch(login(email,password))} className='login_btn'>
             Войти
         </button>
         </div>
