@@ -68,17 +68,23 @@ export default function Registration(props) {
     return(
         <div className='login'>
            <div className='login_header'>
-               <Link to='/landing'>
-           <img src='/images/back.svg'/>
-           </Link>
-           <img className='close' src='/images/close.svg'/>
-           </div>
-           <div className='login_logo'>
-           <img src='/images/logo.svg'/>
-           </div>
+               <div><Link to='/landing'>
+                <img src='/images/back.svg'/>
+                </Link>
+                </div>
+                <div>
+                <img src='/images/logo.svg'/>
+                </div>
+                <div>
+                <img className='close' src='/images/close.svg'/>
+                </div>
+            </div>
+           {/* <div className='login_logo'>
+          
+           </div> */}
            <div className='login_reg'>
-               <Link to='/login'><div className='hover'>Авторизация</div></Link>
-               <Link to='/registration'> <div className='hover'>Регистрация</div></Link>
+               <Link className='hover' to='/login'><div >Авторизация</div></Link>
+               <Link className='hover' to='/registration'> <div >Регистрация</div></Link>
            </div>
 
            {/* <Input placeholder={'E-mail'} />
@@ -96,7 +102,10 @@ export default function Registration(props) {
 
 
             <div className='loyal'>
-                <div className='loyal1'><img src='/images/square_mini.svg'/></div>
+                <div className='loyal1'>
+                    {/* <img src='/images/square_mini.svg'/> */}
+                    <input type='checkbox' /> 
+                    </div>
                 <div className='loyal2'>Автоматически подключаться к программам лояльности заведений </div>
             </div>
 

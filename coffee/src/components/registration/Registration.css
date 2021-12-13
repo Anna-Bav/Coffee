@@ -7,22 +7,26 @@
   align-items: center;
 }
 .login_header {
-  height: 65px;
-  padding-left: 16px;
+  width: 343px;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 80px;
 }
 .login_header img {
   cursor: pointer;
-  margin-top: 44px;
+  margin-top: 15px;
 }
-.close {
+/* .close {
   margin-left: 295px;
-}
-.login_logo {
+} */
+/* .login_logo {
   height: 106px;
   display: flex;
   justify-content: center;
   align-items: start;
-}
+} */
 .login_reg {
   width: 285px;
   height: 35px;
@@ -43,7 +47,10 @@
 .hover:hover {
   border-bottom: 3px solid #00fbf4;
 }
-.hover:active {
+.hover:focus {
+  border-bottom: 3px solid #00fbf4;
+}
+.hover:visited {
   border-bottom: 3px solid #00fbf4;
 }
 .loyal {

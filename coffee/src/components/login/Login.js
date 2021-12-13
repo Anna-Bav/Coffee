@@ -70,19 +70,23 @@ export default function Login(props) {
 
     return(
         <div className='login'>
-           <div className='login_header'>
-               <Link to='/landing'>
+          <div className='login_header'>
+               <div><Link to='/landing'>
                 <img src='/images/back.svg'/>
                 </Link>
-           <img className='close' src='/images/close.svg'/>
-           </div>
-           <div className='login_logo'>
-           <img src='/images/logo.svg'/>
-           </div>
+                </div>
+                <div>
+                <img src='/images/logo.svg'/>
+                </div>
+                <div>
+                <img className='close' src='/images/close.svg'/>
+                </div>
+            </div>
+           
 
            <div className='login_reg'>
-               <Link to='/login'><div className='hover'>Авторизация</div></Link>
-               <Link to='/registration'><div className='hover'>Регистрация</div></Link>
+               <Link className='hover' to='/login'><div >Авторизация</div></Link>
+               <Link className='hover' to='/registration'><div >Регистрация</div></Link>
            </div>
 
            <input onChange = {e => emailHandler(e)} value={email} onBlur = {e => blurHandler(e)} className="partner_input" name='email' type='email' placeholder='Логин' />
@@ -97,7 +101,11 @@ export default function Login(props) {
 
             <div className='forget'>
                 <div className='forget1'>Забыли пароль?</div>
-                <div className='forget2'><img src='/images/square_mini.svg'/>Запомнить</div>
+                <div className='forget2'>
+                    <input type='checkbox' /> 
+                    {/* <img src='/images/square_mini.svg'/> */}
+                    Запомнить
+                </div>
             </div>
 
         <button disabled={!formValid} onClick={() => dispatch(login(email,password))} className='login_btn'>
