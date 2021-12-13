@@ -16,7 +16,7 @@ export const registration =  (email, password) => {
         })
         console.log(response);
         dispatch(setUser(response.data.user))
-            localStorage.setItem('token', response.data.token)
+            localStorage.setItem('token', response.data.access_token)
         } catch (e) {
             console.log("I'm not registered")
             alert('login error')
@@ -61,7 +61,7 @@ export const auth = () => {
             const response = await axios.get('https://coffee11.herokuapp.com/login',
             {headers:{Authorization:`Bearer ${localStorage.getItem('token')}`}})
             dispatch(setUser(response.data.user))
-            localStorage.setItem('token', response.data.token)
+            localStorage.setItem('token', response.data.access_token)
             console.log('response', response)
            
         } catch (e) {
