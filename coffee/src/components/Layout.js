@@ -1,4 +1,5 @@
 import React from 'react';
+import { useSelector } from "react-redux";
 import Landing from './landing/Landing';
 import {
     BrowserRouter, 
@@ -17,8 +18,10 @@ import Legal from './legal/Legal';
 
 
 export default function Layout() {
+  const isAuth = useSelector((state) => state.user.isAuth);
    return(
        <BrowserRouter>
+       {!isAuth ?
        <Switch>
            <Route exact path='/' render={()=><Landing />}/>
            <Route path="/login" render={() => <Login/>}/>
@@ -30,7 +33,11 @@ export default function Layout() {
            <Route path='/review' render={() => <Review />} />
            <Route path='/legal' render={() => <Legal />} />
            
+        </Switch>:
+        <Switch>
+             <Route path='/becomePartner' render={() => <BecomePartner />} />
         </Switch>
+}
        </BrowserRouter>
    
     )
